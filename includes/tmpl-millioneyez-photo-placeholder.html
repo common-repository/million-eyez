@@ -1,0 +1,18 @@
+<script type="text/html" id="tmpl-millioneyez-photo-placeholder">
+    <div class="meHolder meHolderShowDefault">
+        <div class='mePendingPhotobox'>
+            <div class='mePhotoboxNotApprove hidden'><span>This Photobox is pending approval. Once approved you will get notified.</span></div>
+            <div class='meNoLivePhotos hidden'><span>million eyez are working to get photos especially for you!</span></div>
+            <div class='mePhotoboxLive hidden'>
+                <div class="meTopBar">
+                    <div class="mePendingCount">
+                    </div>
+                    <div><span>Photo</span></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+       <img data-millioneyez-shortcode="{{data.missionId}}" src="{{data.url}}/public/images/component_in_post_cutout.png" data-mce-resize="false" class="mePlaceholder"/>
+       <img data-millioneyez-shortcode="{{data.missionId}}" data-src="https://api.millioneyez.com/v1.0/photos/{{data.photoId}}/photourl?aspectRatio=4x3" src="https://api.millioneyez.com/v1.0/photos/{{data.photoId}}/photourl?aspectRatio=4x3" data-mce-resize="false" class="meFeaturedPhoto"/>
+    </div>
+</script>

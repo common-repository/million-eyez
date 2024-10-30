@@ -1,0 +1,163 @@
+.millioneyez {
+   margin: 10px 20px 0 2px;
+}
+
+.millioneyez h1 {
+   font-size: 23px;
+   font-weight: 400;
+   margin: 0;
+   padding: 9px 15px 4px 0;
+   line-height: 29px;
+
+}
+
+.millioneyez h2,
+.millioneyez h3 {
+   font-size: 1.3em;
+   margin: 1em 0;
+}
+
+.millioneyez ol {
+   list-style-type: decimal;
+   margin-left: 2em;
+}
+
+
+.millioneyez li {
+   display: list-item;
+   text-align: -webkit-match-parent;
+}
+
+.millioneyez .nf-box {
+   background: #fff;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   padding: 10px;
+}
+
+.millioneyez p.submit {
+   text-align: left;
+   margin-top: 20px;
+}
+
+.millioneyez p.submit.meConnect {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.millioneyez .label-fake-checkbox-align {
+  padding-left: 20px;
+}
+.millioneyez .wp-core-ui .button-primary {
+   background: #0085ba ;
+   border-color: #0073aa  #006799  #006799 ;
+   -webkit-box-shadow: 0 1px 0 #006799 ;
+   box-shadow: 0 1px 0 #006799 ;
+   color: #fff;
+   text-decoration: none;
+   text-shadow: 0 -1px 1px #006799 ,1px 0 1px #006799 ,0 1px 1px #006799 ,-1px 0 1px #006799 ;
+}
+
+.millioneyez h4 {
+   font-size: 1em;
+   margin: 1.33em 0;
+}
+
+.millioneyez .postbox-container {
+   width: 100%;
+}
+
+.millioneyez .featuredSettings {
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+.millioneyez .featuredApplyDiv {
+   margin-top: 10px;
+   margin-left: 20px;
+}
+
+
+.millioneyez #spanSuccess {
+   color: #13ca9a;
+   font-weight: bold;
+}
+
+.millioneyez #spanFailure {
+   color: red;
+   font-weight:bold;
+}
+
+.millioneyez .hidden {
+   display: none !important;
+}
+
+.millioneyez .button-curator {
+   background: #13ca9a ;
+   border-color: #13ca9a ;
+
+   color: #fff;
+   text-decoration: none;
+
+       display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 30px;
+    height: 34px;
+    margin: 0;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.millioneyez a.button-curator:hover {
+   color: #fff;
+   text-decoration: underline;
+}
+
+.toplevel_page_millioneyez_curator #wpcontent {
+    position: absolute; top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.toplevel_page_millioneyez_curator #wpbody {
+    position: static;
+}
+
+.toplevel_page_millioneyez_curator iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.ui-widget-overlay {
+    background: repeat-x scroll 50% 50% #AAA;
+    opacity:0.3;
+}
+
+.ui-widget-overlay {
+    height:100%;
+    left:0;
+    position:absolute;
+    top:0;
+    width:100%;
+}
+
+.hidden {
+  display: none;
+}
+
+

@@ -1,0 +1,30 @@
+<script type="text/html" id="tmpl-millioneyez-placeholder">
+    <div class="meHolder meHolderShowDefault" data-status="preinit">
+        <div class='mePendingPhotobox'>
+            <div class='mePhotoboxNotApprove hidden'>
+                <span>This Photobox is pending approval. Once approved you will get notified.</span>
+            </div>
+            <div class='meNoLivePhotos hidden'>
+                <div class="mePendingCount">
+                    <div class="me-camera-icon"></div>
+                    <span class="mePendingBadge">{{data.pending_number}}</span>
+                </div>
+                <span>million eyez are working to get photos especially for you!</span></div>
+            <div class='mePhotoboxLive hidden'>
+                <div class="meTopBar">
+                    <div class="mePendingCount">
+                        <div class="me-camera-icon">
+
+                        </div>
+
+                        <span class="mePendingBadge">{{data.pending_number}}</span>
+                    </div>
+                    <div><span>Photobox</span></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+       <img data-millioneyez-shortcode="{{data.missionId}}" src="{{data.url}}/public/images/component_in_post_cutout.png" data-mce-resize="false" class="mePlaceholder"/>
+       <img data-millioneyez-shortcode="{{data.missionId}}" data-src="https://api.millioneyez.com/v1.0/missions/{{data.missionId}}/featuredphotoWatermark?aspectRatio=4x3" src="https://api.millioneyez.com/v1.0/missions/{{data.missionId}}/featuredphotoWatermark?aspectRatio=4x3&refresh={{Date.now()}}" data-mce-resize="false" class="meFeaturedPhoto"/>
+    </div>
+</script>

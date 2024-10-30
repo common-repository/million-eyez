@@ -1,0 +1,111 @@
+.badge {
+    color: #AAAAAA;
+    z-index: 1;
+    display: inline-block;
+    padding: 3px 8px;
+    min-width: 10px;
+    border-radius: 10px;
+    vertical-align: baseline;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.badge-error {
+    background-color: #ef473a;
+    color:  #fff;
+}
+
+.mePendingPhotobox {
+    position: relative;
+    z-index: 1000;
+    color: #fff;
+    left: 0;
+    width: 675px;
+    background-color: #02c1db;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-family: arial;
+}
+
+.mePendingPhotobox .meTopBar {
+    display: flex;
+}
+
+.mePendingPhotobox .meTopBar div {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.mePendingPhotobox .mePendingCount {
+    text-align: left;
+    padding-left: 10px;
+}
+.meNoLivePhotos .mePendingCount {
+    float:left;
+}
+
+.mePendingPhotobox .mePendingCount .mePendingBadge {
+    z-index: 1;
+    display: inline-block;
+    min-width: 12px;
+    min-height: 10px;
+    border-radius: 50%;
+    vertical-align: baseline;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 12px;
+    background-color: #d54e21;
+    color: #fff;
+    top: 2px;
+    left: 37px;
+    border: 1px solid #02c1db;
+    padding: 4px;
+    position: absolute;
+}
+
+.mePendingPhotobox .meTopBar .mePendingCount svg {
+    fill: #fff;
+    max-width: 34px;
+    margin-top: 2px;
+}
+.mePendingPhotobox .me-camera-icon {
+    width: 42px;
+    height: 40px;
+    float:left;
+    background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='512px' height='512px' viewBox='0 0 512 512' style='fill:%23fff' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M430.4,147h-67.5l-40.4-40.8c0,0-0.2-0.2-0.3-0.2l-0.2-0.2v0c-6-6-14.1-9.8-23.3-9.8h-84c-9.8,0-18.5,4.2-24.6,10.9l0,0.1l-39.5,40H81.6C63,147,48,161.6,48,180.2v202.1c0,18.6,15,33.7,33.6,33.7h348.8c18.5,0,33.6-15.1,33.6-33.7V180.2C464,161.6,448.9,147,430.4,147z M256,365.5c-50.9,0-92.4-41.6-92.4-92.6c0-51.1,41.5-92.6,92.4-92.6c51,0,92.4,41.5,92.4,92.6C348.4,323.9,307,365.5,256,365.5z M424.1,200.5c-7.7,0-14-6.3-14-14.1s6.3-14.1,14-14.1c7.7,0,14,6.3,14,14.1S431.8,200.5,424.1,200.5z'/%3E%3Cpath d='M256,202.9c-38.6,0-69.8,31.3-69.8,70c0,38.6,31.2,70,69.8,70c38.5,0,69.8-31.3,69.8-70C325.8,234.2,294.5,202.9,256,202.9z'/%3E%3C/g%3E%3C/svg%3E");
+    background-position: 2px 3px;
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+.wpview-wrap {
+    width: 675px;
+}
+
+.hidden {
+    display: none;
+}
+
+.me-admin-bar-icon {
+    width: 100%;
+}
+
+.meHolderShowDefault .meFeaturedPhoto {
+  display: none;
+}
+
+.meHolderShowFeaturedPhoto .mePlaceholder {
+    display: none;
+}
+
+.meHolder img {
+    width: 100%;
+    height: 506px;
+}
